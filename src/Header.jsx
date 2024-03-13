@@ -11,7 +11,7 @@ function Header() {
                     <div class="info">
                         <div class="info__childs">
                             <p class="hello">HOLA</p>
-                            <h1>Soy Jhoan</h1>
+                            <h1>Soy pepe</h1>
                             <p class="descripcion">Freelance web Designer & <br></br> Mobile UI</p>
                             <button>Conoce más!</button>
                         </div>
