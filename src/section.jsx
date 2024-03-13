@@ -7,7 +7,7 @@ function Section() {
 
     return (
         <>
-            <main>
+            <main id="tp">
                 <section>
                     <div class="about-img">
                         <img src={imgSecondary} alt=""></img>
@@ -20,12 +20,12 @@ function Section() {
                             centra en el desarrollo de soluciones eficientes y escalables, respaldado por una sólida comprensión de los principios de programación
                             y la capacidad de trabajar en equipo." </p>
                         <div class="about-btns">
-                            <button>Conoce más!</button>
-                            <button>Descargar CV</button>
+                            <button> <a href="#services-tp">Conoce más!</a></button>
+                            <button id='services-tp'>Descargar CV</button>
                         </div>
                     </article>
                 </section>
-                <section>
+                <section >
                     <h2>Servicios</h2>
                     <p>Como desarrollador de software, ofrezco una gama completa de servicios para satisfacer las necesidades tecnológicas de mis clientes.
                         Mis habilidades abarcan el desarrollo como: </p>

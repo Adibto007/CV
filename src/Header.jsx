@@ -2,7 +2,6 @@ import { useState } from 'react'
 import imgOriginal from './assets/emp.png'
 
 function Header() {
-    const [count, setCount] = useState(0)
     
     return (
         <>
@@ -11,9 +10,9 @@ function Header() {
                     <div class="info">
                         <div class="info__childs">
                             <p class="hello">HOLA</p>
-                            <h1>Soy pepe</h1>
-                            <p class="descripcion">Freelance web Designer & <br></br> Mobile UI</p>
-                            <button>Conoce más!</button>
+                            <h1>Soy Jhoan</h1>
+                            <p class="descripcion">Software developer</p>
+                            <button> <a href="#tp">Conoce más!</a></button>
                         </div>
                     </div>
                 </div>

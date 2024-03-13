@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
+
 
 nav {
     position: fixed;
@@ -110,6 +112,10 @@ header .foto {
     position: absolute;
     transition: all .4s ease;
 }
+header a{
+    text-decoration: none;
+    color: white;
+}
 
 .header__info {
     display: flex;
@@ -181,6 +187,10 @@ main section:first-child {
     padding: 100px 0;
     height: 100vh;
     transition: all .4s ease;
+}
+main a{
+    text-decoration: none;
+    color: white;
 }
 
 .about-img {
