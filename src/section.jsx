@@ -3,7 +3,6 @@ import imgSecondary from './assets/emp2.png'
 
 
 function Section() {
-    const [count, setCount] = useState(0)
 
     return (
         <>
