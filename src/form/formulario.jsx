@@ -23,6 +23,7 @@ function Formulario() {
 
     return (
         <div id='wrapper' >
+            <h1>pepe<h1/>
             <form ref={form} onSubmit={sendEmail}>
                 <label>Name</label>
                 <input type="text" name="user_name" />
